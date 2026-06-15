@@ -374,6 +374,9 @@ Executive KPI View
 # ⚙️ Pipeline Execution
 
 ```sql
+-- Load Bronze Layer
+EXEC bronze.load_bronze_all;
+GO
 -- Load Silver Layer
 EXEC silver.load_silver_all;
 GO
