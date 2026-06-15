@@ -316,7 +316,7 @@ BEGIN
 END;
 GO
 
-CREATE OR ALTER PROCEDURE bronze.load_silver_all
+CREATE OR ALTER PROCEDURE bronze.load_bronze_all
 AS
 BEGIN
 
@@ -340,7 +340,7 @@ BEGIN
     SET @pipeline_end = GETDATE();
 
     PRINT '====================================================';
-    PRINT 'SILVER PIPELINE COMPLETED SUCCESSFULLY';
+    PRINT 'BRONZE PIPELINE COMPLETED SUCCESSFULLY';
     PRINT 'TOTAL PIPELINE DURATION : '
         + CAST(DATEDIFF(SECOND,@pipeline_start,@pipeline_end) AS VARCHAR)
         + ' SECOND(S)';
