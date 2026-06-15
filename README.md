@@ -1,0 +1,2 @@
+# -Retail-Data-Warehouse-Project-SQL-Server-ETL-Pipeline
+🚀 Enterprise Retail Data Warehouse built with SQL Server and Power BI using Medallion Architecture (Bronze → Silver → Gold). Features automated ETL pipelines, data quality testing framework, monitoring &amp; logging, dimensional modeling, analytical views, customer &amp; product reporting, executive KPI dashboards, and  business intelligence reporting.
