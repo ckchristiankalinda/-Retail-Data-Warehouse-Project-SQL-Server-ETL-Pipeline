@@ -1,0 +1,4 @@
+payment_id,payment_method,payment_status
+PAY01,Mobile Money,Success
+PAY02,Card,Success
+PAY03,Cash,Pending
