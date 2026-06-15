@@ -64,39 +64,7 @@ This project solves these challenges by implementing a structured Data Warehouse
 
 # 🏛️ Architecture
 
-```text
-                    CSV FILES
-                         │
-                         ▼
-               ┌────────────────┐
-               │ BRONZE LAYER   │
-               │ Raw Data       │
-               └────────────────┘
-                         │
-                         ▼
-               ┌────────────────┐
-               │ SILVER LAYER   │
-               │ Data Cleaning  │
-               │ Validation     │
-               └────────────────┘
-                         │
-                         ▼
-               ┌────────────────┐
-               │ DATA QUALITY   │
-               │ FRAMEWORK      │
-               └────────────────┘
-                         │
-                         ▼
-               ┌────────────────┐
-               │ GOLD LAYER     │
-               │ Business KPIs  │
-               └────────────────┘
-                         │
-                         ▼
-                 POWER BI DASHBOARD
-```
-
----
+![Architecture](docs/data_architecture.png)
 
 # 📂 Project Structure
 
