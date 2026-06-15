@@ -261,6 +261,8 @@ Stores:
 * Execution Date
 
 ---
+![Data_Quality_Check](screenshots/Data_Quality_Check.png)
+
 
 # 🥇 Gold Layer
 
